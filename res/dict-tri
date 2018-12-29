@@ -1,0 +1,10 @@
+AKHIR           a+h a-h+i h-i+r i-r sp
+AKHIR           a+kh a-kh+i kh-i+r i-r sp
+AKHIR           a+k a-k+h k-h+i h-i+r i-r sp
+AWAL            a+w a-w+a w-a+l a-l sp
+HALAMAN         h+a h-a+l a-l+a l-a+m a-m+a m-a+n a-n sp
+SEBELUMNYA      s+e s-e+b e-b+e b-e+l e-l+u l-u+m u-m+ny m-ny+a ny-a sp
+SELANJUTNYA     s+e s-e+l e-l+a l-a+n a-n+j n-j+u j-u+t u-t+ny t-ny+a ny-a sp
+SENT-END        sil
+SENT-START      sil
+TUTUP           t+u t-u+t u-t+u t-u+p u-p sp

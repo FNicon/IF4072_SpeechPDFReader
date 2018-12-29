@@ -1,0 +1,5 @@
+ERROR: m_chkparam: cannot access ../manual/res/tugas.dict
+ERROR: m_chkparam: cannot access ../manual/tugas.dfa
+ERROR: m_chkparam: cannot access ../manual/hmm15/hmmdefs
+ERROR: m_chkparam: cannot access ../manual/tiedlist
+ERROR: m_chkparam: could not pass parameter check

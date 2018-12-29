@@ -1,0 +1,220 @@
+HVite -A -D -T 1 -l * -o SWT -b SENT-END -C config -H hmm7/macros -H hmm7/hmmdefs -i aligned.mlf -m -t 250.0 150.0 1000.0 -y lab -a -I words.mlf -S train.scp dict monophones1 
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+#                 NUMCEPS                       12
+#                 CEPLIFTER                     22
+#                 NUMCHANS                      26
+#                 PREEMCOEF               0.970000
+#                 USEHAMMING                  TRUE
+#                 WINDOWSIZE         250000.000000
+#                 SAVEWITHCRC                 TRUE
+#                 SAVECOMPRESSED              TRUE
+#                 TARGETRATE         100000.000000
+#                 TARGETKIND          MFCC_0_D_N_Z
+
+Read 20 physical / 20 logical HMMs
+Label file will be used to align each file
+Aligning File: ../train/mfcc/sample1.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [34 frames] -61.5849 [Ac=-2093.9 LM=0.0] (Act=8.4)
+Aligning File: ../train/mfcc/sample2.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [33 frames] -62.8342 [Ac=-2073.5 LM=0.0] (Act=8.0)
+Aligning File: ../train/mfcc/sample3.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [58 frames] -63.6685 [Ac=-3692.8 LM=0.0] (Act=8.8)
+Aligning File: ../train/mfcc/sample4.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [58 frames] -65.5664 [Ac=-3802.8 LM=0.0] (Act=8.7)
+Aligning File: ../train/mfcc/sample5.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [311 frames] -45.6764 [Ac=-14205.4 LM=0.0] (Act=7.7)
+Aligning File: ../train/mfcc/sample6.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [332 frames] -44.7380 [Ac=-14853.0 LM=0.0] (Act=7.6)
+Aligning File: ../train/mfcc/sample7.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [31 frames] -69.3990 [Ac=-2151.4 LM=0.0] (Act=7.3)
+Aligning File: ../train/mfcc/sample8.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [27 frames] -63.4253 [Ac=-1712.5 LM=0.0] (Act=6.6)
+Aligning File: ../train/mfcc/sample9.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [122 frames] -59.1986 [Ac=-7222.2 LM=0.0] (Act=18.0)
+Aligning File: ../train/mfcc/sample10.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [170 frames] -59.4854 [Ac=-10112.5 LM=0.0] (Act=15.6)
+Aligning File: ../train/mfcc/sample11.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [183 frames] -63.0928 [Ac=-11546.0 LM=0.0] (Act=12.7)
+Aligning File: ../train/mfcc/sample12.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [152 frames] -64.0234 [Ac=-9731.6 LM=0.0] (Act=14.4)
+Aligning File: ../train/mfcc/sample13.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [339 frames] -50.9715 [Ac=-17279.3 LM=0.0] (Act=7.2)
+Aligning File: ../train/mfcc/sample14.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [377 frames] -51.3076 [Ac=-19343.0 LM=0.0] (Act=7.4)
+Aligning File: ../train/mfcc/sample15.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [118 frames] -60.9564 [Ac=-7192.9 LM=0.0] (Act=11.7)
+Aligning File: ../train/mfcc/sample16.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [115 frames] -61.1691 [Ac=-7034.4 LM=0.0] (Act=12.2)
+Aligning File: ../train/mfcc/sample17.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [130 frames] -57.2504 [Ac=-7442.5 LM=0.0] (Act=17.5)
+Aligning File: ../train/mfcc/sample18.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [153 frames] -58.5983 [Ac=-8965.5 LM=0.0] (Act=13.5)
+Aligning File: ../train/mfcc/sample19.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [174 frames] -61.0649 [Ac=-10625.3 LM=0.0] (Act=12.3)
+Aligning File: ../train/mfcc/sample20.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [158 frames] -62.6469 [Ac=-9898.2 LM=0.0] (Act=10.1)
+Aligning File: ../train/mfcc/sample21.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [371 frames] -51.0243 [Ac=-18930.0 LM=0.0] (Act=7.3)
+Aligning File: ../train/mfcc/sample22.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [370 frames] -51.3442 [Ac=-18997.4 LM=0.0] (Act=6.8)
+Aligning File: ../train/mfcc/sample23.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [101 frames] -61.8373 [Ac=-6245.6 LM=0.0] (Act=11.1)
+Aligning File: ../train/mfcc/sample24.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [111 frames] -61.3590 [Ac=-6810.8 LM=0.0] (Act=11.8)
+Aligning File: ../train/mfcc/sample25.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [90 frames] -56.6074 [Ac=-5094.7 LM=0.0] (Act=14.4)
+Aligning File: ../train/mfcc/sample26.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [103 frames] -56.1197 [Ac=-5780.3 LM=0.0] (Act=14.2)
+Aligning File: ../train/mfcc/sample27.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [168 frames] -61.0012 [Ac=-10248.2 LM=0.0] (Act=11.8)
+Aligning File: ../train/mfcc/sample28.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [126 frames] -62.0036 [Ac=-7812.5 LM=0.0] (Act=9.6)
+Aligning File: ../train/mfcc/sample29.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [345 frames] -48.8947 [Ac=-16868.7 LM=0.0] (Act=7.4)
+Aligning File: ../train/mfcc/sample30.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [374 frames] -50.4480 [Ac=-18867.6 LM=0.0] (Act=7.3)
+Aligning File: ../train/mfcc/sample31.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [96 frames] -58.3873 [Ac=-5605.2 LM=0.0] (Act=15.0)
+Aligning File: ../train/mfcc/sample32.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [95 frames] -58.6412 [Ac=-5570.9 LM=0.0] (Act=15.0)
+Aligning File: ../train/mfcc/sample33.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [91 frames] -59.5996 [Ac=-5423.6 LM=0.0] (Act=24.2)
+Aligning File: ../train/mfcc/sample34.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [127 frames] -59.2137 [Ac=-7520.1 LM=0.0] (Act=24.4)
+Aligning File: ../train/mfcc/sample35.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [135 frames] -60.9583 [Ac=-8229.4 LM=0.0] (Act=21.5)
+Aligning File: ../train/mfcc/sample36.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [155 frames] -64.4965 [Ac=-9997.0 LM=0.0] (Act=18.4)
+Aligning File: ../train/mfcc/sample37.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [367 frames] -49.2449 [Ac=-18072.9 LM=0.0] (Act=10.8)
+Aligning File: ../train/mfcc/sample38.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [388 frames] -52.2008 [Ac=-20253.9 LM=0.0] (Act=12.9)
+Aligning File: ../train/mfcc/sample39.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [107 frames] -61.8841 [Ac=-6621.6 LM=0.0] (Act=23.1)
+Aligning File: ../train/mfcc/sample40.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [97 frames] -60.2272 [Ac=-5842.0 LM=0.0] (Act=22.6)
+Aligning File: ../train/mfcc/sample41.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [41 frames] -77.5401 [Ac=-3179.1 LM=0.0] (Act=7.4)
+Aligning File: ../train/mfcc/sample42.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [31 frames] -63.7060 [Ac=-1974.9 LM=0.0] (Act=7.9)
+Aligning File: ../train/mfcc/sample43.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [39 frames] -72.3321 [Ac=-2821.0 LM=0.0] (Act=8.4)
+Aligning File: ../train/mfcc/sample44.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [54 frames] -59.7575 [Ac=-3226.9 LM=0.0] (Act=8.9)
+Aligning File: ../train/mfcc/sample45.mfc
+Created lattice with 3 nodes / 2 arcs from label file
+SENT-END TUTUP SENT-END  ==  [66 frames] -59.7075 [Ac=-3940.7 LM=0.0] (Act=8.6)
+Aligning File: ../train/mfcc/sample46.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [95 frames] -77.9987 [Ac=-7409.9 LM=0.0] (Act=13.2)
+Aligning File: ../train/mfcc/sample47.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [134 frames] -63.5067 [Ac=-8509.9 LM=0.0] (Act=19.4)
+Aligning File: ../train/mfcc/sample48.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [111 frames] -59.8607 [Ac=-6644.5 LM=0.0] (Act=13.9)
+Aligning File: ../train/mfcc/sample49.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SELANJUTNYA SENT-END  ==  [133 frames] -60.3022 [Ac=-8020.2 LM=0.0] (Act=13.9)
+Aligning File: ../train/mfcc/sample50.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [94 frames] -76.3031 [Ac=-7172.5 LM=0.0] (Act=10.5)
+Aligning File: ../train/mfcc/sample51.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [87 frames] -78.7455 [Ac=-6850.9 LM=0.0] (Act=9.3)
+Aligning File: ../train/mfcc/sample52.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [132 frames] -63.4227 [Ac=-8371.8 LM=0.0] (Act=18.5)
+Aligning File: ../train/mfcc/sample53.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN SEBELUMNYA SENT-END  ==  [109 frames] -60.4542 [Ac=-6589.5 LM=0.0] (Act=12.4)
+Aligning File: ../train/mfcc/sample54.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [81 frames] -66.0822 [Ac=-5352.7 LM=0.0] (Act=14.3)
+Aligning File: ../train/mfcc/sample55.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [93 frames] -67.3961 [Ac=-6267.8 LM=0.0] (Act=14.3)
+Aligning File: ../train/mfcc/sample56.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [92 frames] -59.0899 [Ac=-5436.3 LM=0.0] (Act=14.5)
+Aligning File: ../train/mfcc/sample57.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [89 frames] -58.9785 [Ac=-5249.1 LM=0.0] (Act=14.2)
+Aligning File: ../train/mfcc/sample58.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AWAL SENT-END  ==  [76 frames] -72.4010 [Ac=-5502.5 LM=0.0] (Act=12.6)
+Aligning File: ../train/mfcc/sample59.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [70 frames] -77.0957 [Ac=-5396.7 LM=0.0] (Act=16.5)
+Aligning File: ../train/mfcc/sample60.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [109 frames] -61.1517 [Ac=-6665.5 LM=0.0] (Act=25.3)
+Aligning File: ../train/mfcc/sample61.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [101 frames] -60.4545 [Ac=-6105.9 LM=0.0] (Act=24.6)
+Aligning File: ../train/mfcc/sample62.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [102 frames] -61.3873 [Ac=-6261.5 LM=0.0] (Act=24.4)
+Aligning File: ../train/mfcc/sample63.mfc
+Created lattice with 4 nodes / 3 arcs from label file
+SENT-END HALAMAN AKHIR SENT-END  ==  [106 frames] -60.4448 [Ac=-6407.2 LM=0.0] (Act=19.4)
+
+HTK Configuration Parameters[10]
+  Module/Tool     Parameter                  Value
+                  NUMCEPS                       12
+                  CEPLIFTER                     22
+                  NUMCHANS                      26
+                  PREEMCOEF               0.970000
+                  USEHAMMING                  TRUE
+                  WINDOWSIZE         250000.000000
+                  SAVEWITHCRC                 TRUE
+                  SAVECOMPRESSED              TRUE
+                  TARGETRATE         100000.000000
+                  TARGETKIND          MFCC_0_D_N_Z
+
